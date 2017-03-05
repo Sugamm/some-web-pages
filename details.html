@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>API Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" style="color:#fff;" href="#">{API}</a>    
+        <form class="navbar-form navbar-left hidden-xs">
+          <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+         <!--  <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+
+          </div>
+          <button type="submit" class="btn btn-default">Search</button> -->
+        </form>
+    </div>
+    <div class="navbar-right">
+          <img src="http://www.imran.com/xyper_images/icon-user-default.png" class=" custom-img">
+        </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row detail-content">
+    <div class="col-sm-4  col-sm-4 col-xs-12">
+      <img src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Maps-icon.png" width="200px">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <button class="btn btn-warning custom-buy-add"> <span class="glyphicon glyphicon-shopping-cart"></span> Buy</button>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <button data-toggle="modal" data-target="#myModal" class="btn btn-primary custom-buy-add"> <span class="glyphicon glyphicon-comment"></span> Add Review</button>
+        </div>
+      </div>
+      <div class="sortby">
+        <span class="stars btn btn-success"> <span class="glyphicon glyphicon-star"></span> 4.5 </span> Reliability
+      </div>
+      <div class="sortby">
+        <span class="stars btn btn-success"> <span class="glyphicon glyphicon-star"></span> 4.5 </span> Performance
+      </div>
+      <div class="sortby">
+        <span class="stars btn btn-warning"> <span class="glyphicon glyphicon-star"></span> 3.3 </span> Affordability
+      </div>
+      <div class="sortby">
+        <span class="stars btn btn-danger"> <span class="glyphicon glyphicon-star"></span> 1.2 </span> Ease to use
+      </div>
+      <div class="sortby">
+        <span class="stars btn btn-warning"> <span class="glyphicon glyphicon-star"></span> 3.9 </span> Syncronization
+      </div>
+    </div>
+
+    <div class="col-sm-8 col-sm-8 col-xs-12 ">
+    <div class="card">
+    <h1><b>Google Maps API</b></h1>
+    <h5><span class="label label-danger">Maps</span> <span class="label label-primary">View</span></h5><br>
+    <div class="">
+      <span class="glyphicon glyphicon-comment"></span> 950 Purchases & 656 Reviews
+    </div>
+    <div class="api-content">
+      <p>
+        Google Maps is a web mapping service developed by Google. It offers satellite imagery, street maps, 360° panoramic views of streets (Street View), real-time traffic conditions (Google Traffic), and route planning for traveling by foot, car, bicycle (in beta), or public transportation.
+      </p>
+    </div>
+    <div>
+    <ul class="nav nav-tabs">
+  <li class="active col-xs-12 col-md-3  col-sm-3"><a data-toggle="tab" href="#home">Features</a></li>
+  <li class="col-xs-12 col-md-2 col-sm-3"><a data-toggle="tab" href="#menu1">Reviews</a></li>
+  <li class="col-xs-12 col-md-3 col-sm-3"><a data-toggle="tab" href="#menu2">Similar API</a></li>
+  <li class="col-xs-12 col-md-3 col-sm-2"><a data-toggle="tab" href="#menu3">Documentation</a></li>
+
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <div class="row feature">
+      <div class="col-md-4"><h4>API Endpoint</h4></div>
+      <div class="col-md-8 value">https://www.google.com/maps/embed/v1</div>
+    </div>
+    <div class="row feature">
+      <div class="col-md-4"><h4>Category</h4></div>
+      <div class="col-md-8 value">Mapping</div>
+    </div>
+    <div class="row feature">
+      <div class="col-md-4"><h4>API Provider</h4></div>
+      <div class="col-md-8 value">Google</div>
+    </div>
+    <div class="row feature">
+      <div class="col-md-4"><h4>Scope</h4></div>
+      <div class="col-md-8 value" >Single Purpose API</div>
+    </div>
+    <hr>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+  <div id="menu3" class="tab-pane fade">
+    <h3>Menu 3</h3>
+    <p>Some content in menu 3.</p>
+  </div>
+</div>
+    </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Share your Experience</h4>
+        </div>
+        <div class="modal-body">
+          <form method="get" action="">
+            <div class="form-group">
+              <input type="text" class="form-control" id="" placeholder="Title">
+            </div>
+            <div class="form-group">
+            <textarea class="form-control" rows="5" id="comment" placeholder="What was your experience with this product....."></textarea>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal -->
+</div>
+
+
+</body>
+</html>
